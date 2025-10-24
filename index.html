@@ -6,7 +6,13 @@
   <title>Mandal Automations</title>
   <link rel="icon" href="https://github.githubassets.com/favicons/favicon.png" />
   <style>
+    html, body {
+      height: 100%;
+    }
     body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
       font-family: 'Segoe UI', Roboto, sans-serif;
       background: linear-gradient(135deg, #0d1117, #1f2937);
       color: #f0f0f0;
@@ -16,6 +22,12 @@
     }
     header {
       padding: 80px 20px 40px;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     h1 {
       font-size: 2.5rem;
@@ -72,14 +84,16 @@
     </p>
   </header>
 
-  <section>
-    <h2>🔥 What You'll Find Here</h2>
-    <ul>
-      <li><strong>GitHub Actions & Automation:</strong> Custom workflows, CI/CD pipelines, and integrations.</li>
-      <li><strong>AI-Powered Tools:</strong> AI-driven solutions to enhance software development and DevOps workflows.</li>
-      <li><strong>Open Source Contributions:</strong> Projects and utilities to help developers automate and scale.</li>
-    </ul>
-  </section>
+  <main>
+    <section>
+      <h2>🔥 What You'll Find Here</h2>
+      <ul>
+        <li><strong>GitHub Actions & Automation:</strong> Custom workflows, CI/CD pipelines, and integrations.</li>
+        <li><strong>AI-Powered Tools:</strong> AI-driven solutions to enhance software development and DevOps workflows.</li>
+        <li><strong>Open Source Contributions:</strong> Projects and utilities to help developers automate and scale.</li>
+      </ul>
+    </section>
+  </main>
 
   <footer>
     <p>© 2025 Mandal Automations · Built with ❤️ using GitHub & AI</p>
