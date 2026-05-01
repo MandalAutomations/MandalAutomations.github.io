@@ -1,1 +1,0 @@
-# MandalAutomations.github.io
